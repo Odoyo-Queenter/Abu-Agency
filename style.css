@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    border: 20px solid rgb(240, 234, 229);
+   
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo-1{
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+.heading{
+    color: rgb(149, 234, 240);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: black;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: rgb(248, 201, 201);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn{
+     background-color: rgb(135, 135, 246);
+     color: aliceblue;
+     text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 10px 25px;
+     border-radius: 20px;
+     transition: transform .4s;
+}
+
+.icons{
+    display: flex;
+    position: relative;
+    margin-top: -35%;
+    margin-left: 10%;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    background: orange;
+    box-shadow: 15px 10px 20px  grey;
+    border-radius: 50px;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+.iconns{
+    margin-left: 5%;
+    background-color:rgb(133, 215, 242);
+    box-shadow: 15px 10px 20px  grey;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+h1{
+    color: rgb(67, 46, 46);
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 80px;
+    font-weight: bold;
+}
+p{
+    color:rgb(197, 245, 242);
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.image{
+    background-image: url("672-6728632_splash-euclidean-vector-color-vector-paint-splash-png-removebg-preview.png");
+    margin-left: 60%;
+    margin-top: -19%;
+}
+.main-buttons{
+    display: flex;
+    margin-left:10% ;
+}
+.sub-btn-one{
+    background-color: darkcyan;
+    width: 250px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+
+}
+.btn-one{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.sub-btn-two{
+    background-color: rgb(237, 237, 245);
+    width: 250px;
+    color: aliceblue;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-left: 5%;
+    
+}
+.btn-two{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.cards{
+    display: flex;
+    margin-left: 15%;
+     margin-top: 2%;
+  
+}
+.card-one{
+    width: 350px;
+    height: 100px;
+    border: 2px solid grey;
+}
+.card-one h5{
+    text-align: center;
+    font-size: xx-large;
+}
+.card-one p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+   
+}
+.card-two{
+    width: 350px;
+    height: 100px;
+    border: 2px solid grey;
+}
+.card-two h5{
+    text-align: center;
+    font-size: xx-large;
+}
+.card-two p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+   
+}
+.card-three{
+    width: 350px;
+    height: 100px;
+    border: 2px solid grey;
+}
+.card-three h5{
+    text-align: center;
+    font-size: xx-large;
+}
+.card-three p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.services{
+   text-align: center;
+   font-size: 30px;
+   color:rgb(67, 46, 46) ;
+   justify-content: center;
+   margin-left: 10%;
+   padding-bottom: 15px ;
+   
+}
+.services h2{
+    margin-right: 20%;
+}
+.services p{
+    margin-right: 30%;
+    margin-top: 5%;
+}
+.service {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+}
+.service p{
+    color: rgb(67, 46, 46);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 8%;
+}
+.service h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    margin-top: 8%;
+}
+.service h3{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.service-one{
+    width: 450px;
+    height: 350px;
+    border: 2px solid grey;
+    background-color: rgb(250, 246, 246);
+}
+.service-one i{
+    width: 70px;
+    height: 70px;
+    background: rgb(145, 145, 184);
+    border-radius: 50px;
+    font-size: 50px;
+    margin-right: 50%;
+    padding-top: 10px;
+    margin-top: 3%;
+}
+.service-two{
+    width: 450px;
+    height: 350px;
+    border: 2px solid grey;
+    background-color: darkcyan;
+}
+.service-two i{
+    width: 70px;
+    height: 70px;
+    background: whitesmoke;
+    border-radius: 50px;
+    font-size: 50px;
+    margin-right: 50%;
+    padding-top: 10px;
+    margin-top: 3%;
+}
+.service-two p{
+    color: white;
+}
+.service-two h2{
+    color: white;
+}
+.service-two h3{
+    color: white;
+}
+.service-three{
+    width: 450px;
+    height: 350px;
+    border: 2px solid grey;
+    background-color:  rgb(242, 242, 246);
+}
+.service-three i{
+    width: 70px;
+    height: 70px;
+    background: orange;
+    border-radius: 50px;
+    font-size: 50px;
+    margin-right: 50%;
+    padding-top: 10px;
+    margin-top: 3%;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:-2%;
+    padding: 30px;
+    padding-top:100px;
+}
+.slack img{
+    opacity:50% ;
+    margin-top:2%;
+}
+.prudential img{
+    opacity:50%;
+    background-color: lightgray;
+   
+}
+.microsoft{
+    margin-top: -3%;
+}
+.zoover {
+    margin-top:2%;
+    opacity:50%;
+}
+.projects{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.project p{
+    font-size: 20px;
+}
+.project h2{
+    color: black;
+    font-size: 30px;
+}
+.img{
+    background-image: url("672-6728632_splash-euclidean-vector-color-vector-paint-splash-png-removebg-preview.png");
+}
+.project i{
+    background-color: #43a191;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    margin-top: -5%;
+    text-align: center;
+    
+    
+}
+.project .number-1{
+    margin-right: 12%;
+}
+.project .number-2 i{
+   background-color:#5886ea ; 
+   color:#ffffff;
+   border-radius: 48%;
+   padding: 15px;
+   font-size:small;
+  
+}
+.project .number-3 i{
+    background-color:#fbb931;
+    color:#ffffff;
+    border-radius: 48%;
+    padding: 15px;
+    font-size:small;
+    margin-bottom:3%;
+    margin-left: -4%;
+
+} 
+.signup h3{
+    margin-top: 4%;
+}
+.signup p{
+    text-align: center;
+    color:black;
+    font-weight:500;
+    margin-top:4%;
+    font-size: 17px;
+    margin-left: 22%;
+}
+.signup input{
+    padding: 20px;
+    width:40%;
+    border-style: none;
+    background-color:#43a192;
+    border-radius:15px;
+    margin-top: 1%;
+    margin-right: 45%;
+   
+    
+}
+.signup input::placeholder{
+    color: #ffffff;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.input button{
+    padding:5px;
+    width: 140px;
+    height: 50px;
+    border-radius:10px;
+    border-style: none;
+    background-color: #5886ea;
+    color: #ffffff;
+    margin-top:2%;
+    margin-bottom:1%;
+    font-size: 14px;
+    margin-left: -57%;
+    
+
+}
+.signup button{
+    margin-right: 20%;
+}
+.work{
+    display: flex; 
+    margin-left:10%;
+
+}
+.work h3{
+    color: #43a192;
+    font-family:sans-serif; 
+    font-size: 15px;
+    margin-top: 18%;
+   
+}
+.image-3{
+    margin-bottom: -13%;
+}
+.section-1 h2{
+    margin-top: 10%;
+    margin-left:10%;
+    font-size:20px;
+    color:#3a1604;
+    font-family:sans-serif;
+    font-weight:1000;
+}
+.section-1 form{
+    margin-right:70%;
+}
+.section-1 form label{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:700;
+    margin-right: 50%;
+
+}
+.section-1 form input{
+    width:350px;
+    padding:10px;
+    background-color:#fef8f8;
+    border-style: none;
+    margin-left: 12%;
+}
+.section-1 form input::placeholder{
+    margin-left:20%;
+}
+.section-1 form textarea{
+    width:350px;
+    padding:10px;
+    background-color:#fef8f8;
+    border-style: none;
+    margin-left: 12%;
+    height: 100px;
+   
+}
+.section-1 form button{
+    background-color: #43a191;
+    color: #ffffff;
+    border-style: none;
+    padding:15px;
+    border-radius:20px;
+    font-weight:700;
+    margin-bottom: 5%;
+    box-shadow: 10px 8px 60px #fef8f8;
+}
+.last-photo img{
+    margin-left:45%;
+    margin-top:-2000%;
+    margin-bottom:1%;
+    background-image: url("7e406679f9357f59d8a426dc1ec90728.jpg");
+   
+}
+
+
+
+
+
